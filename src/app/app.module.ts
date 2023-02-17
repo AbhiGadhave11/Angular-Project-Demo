@@ -3,10 +3,18 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { MycompComponent } from './mycomp/mycomp.component';
+import { MycompChildComponent } from './mycomp-child/mycomp-child.component';
+import { ChildtoparentComponent } from './childtoparent/childtoparent.component';
+import { ContentprojectionComponent } from './contentprojection/contentprojection.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MycompComponent,
+    MycompChildComponent,
+    ChildtoparentComponent,
+    ContentprojectionComponent
   ],
   imports: [
     BrowserModule,

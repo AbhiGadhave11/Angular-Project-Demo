@@ -1,0 +1,33 @@
+<h1>
+    My Name is Abhijit Gadhave...
+</h1>
+<body>Hi I am a new Component with styles</body>
+
+<body>The Name is : {{fname}} and the length of string is 
+    {{fname.length}}</body>
+
+<app-mycomp-child [name]="fsname"></app-mycomp-child>
+<!-- <app-mycomp-child [sirname]="lname" ></app-mycomp-child> -->
+
+<ul>
+  <li *ngFor="let item of arr">{{item}}</li>
+</ul>
+
+<app-childtoparent (newItemEvent)="addItem($event)"></app-childtoparent>
+<br>
+
+<ul>
+  <li *ngFor="let item of items">{{item}}</li>
+</ul>
+
+<h2>
+  single slot content projection
+</h2>
+
+<app-contentprojection>
+  <p>Is content projection cool?</p>
+  <p question>Is content projection cool?</p>
+</app-contentprojection>
+
+
+ 
